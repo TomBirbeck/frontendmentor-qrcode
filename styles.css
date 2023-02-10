@@ -1,0 +1,46 @@
+body{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hwb(212 84% 6%);
+    font-size: 13px;
+    font-family: Outfit, Helvetica, sans-serif;
+}
+
+.card {
+    height: 60vh;
+    width: 260px;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 15px;
+    padding: 15px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.qrcode {
+    height: 250px;
+    width: 250px;
+    border-radius: 10px;
+}
+
+.heading{
+    width: 250px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 20px;
+    margin: 20px 0 0 0;
+}
+
+.text{
+    width: 230px;
+    text-align: center;
+    font-weight: 400;
+    color: grey;
+    padding: 0 10px;
+}
