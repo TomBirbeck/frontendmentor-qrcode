@@ -13,11 +13,11 @@ body{
 }
 
 .card {
-    height: 60vh;
+    height: 400px;
     width: 260px;
     background-color: hsl(0, 0%, 100%);
     border-radius: 15px;
-    padding: 15px 10px;
+    padding: 13px 8px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -29,18 +29,20 @@ body{
     border-radius: 10px;
 }
 
+.textArea {
+padding: 0 20px;
+}
+
 .heading{
-    width: 250px;
     text-align: center;
+    color: hsl(218, 44%, 22%);
     font-weight: 700;
-    font-size: 20px;
+    font-size: 19px;
     margin: 20px 0 0 0;
 }
 
-.text{
-    width: 230px;
+.subtext{
     text-align: center;
     font-weight: 400;
-    color: grey;
-    padding: 0 10px;
+    color: lightslategray;
 }
